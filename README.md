@@ -1,6 +1,7 @@
 # Kirby-Detection
 ## Overview
 This project is implemented for AI Camp Summer Data Science Intern Crash Course. The main purpose of this project is to detect Kirby in the images using YOLOv5. Kirby is an adorable action-platform video game character developed by HAL Laboratory and published by Nintendo.
+
 ![](image/kirby_detection.png)
 ## Dataset Introduction
 I collected the images containing Kirby from Google Image. This images includs game posters, game screenshot, and fan works. These images was labled using [roboflox](https://roboflow.com/) by myself. 
