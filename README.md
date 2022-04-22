@@ -8,13 +8,9 @@ I collected the images containing Kirby from Google Image. This images includs g
 ![](image/label_generate.png)
 
 ## Script
-1. code/Kirby_Detection_ver2.ipynb
+**code/Kirby_Detection_ver2.ipynb**
 
 I ran this notebook on Google Colab. Based on YOLOv5s6, the model here was trained for 200 epochs with the default hyperparameter setting. You could find the running result in this notebook, as well as [result](result) directory.
-
-2. deploy/app/main.py
-
-Help to deploy the web setting.
 
 ## Result
 Kirby is marked by bounding box! The detailed train, validation, and testing results (including the evaluation metrics (PR, Precision, Recall etc., confusion matrix, and graphic output) are shown in [result](result) directory. After training, the recall is pretty high, almost equals to 1, while the precision is 80 % approximately. It means the model could nearly find every kirby in the image, and may mistakenly mark some none-kirby character.
