@@ -25,3 +25,13 @@ The web deploying part is refered to the [web templates of AI Camp](https://gith
 
 ## Future Work
 When I collected data, I found that most of the video game screenshots are from the newest released Nitendo Switch Game - Kirby and the Forgotten Land. In this game, the resolution is relatively high compared to the previous version of Kirby. In this case, this dataset may have potential bias. Besides, since most of the kirby are pink, being quite different from the surrouding game environment, so it would pretty easy for the model to simply find the pink area in the images. In this case, this object detection model have poor performance on pink background images. Expanding the data may help to solve these problem. 
+
+## Acknowledgment
+I'd like to express my sincere gratitude to Alex Duffy and Mitch Cutts at AI Camp, who helped me patiently and promptly when I encountered difficulties in this project.
+
+## Reference
+1. YOLOv5 Document: https://github.com/ultralytics/yolov5
+2. AI Camp Web Templates: https://github.com/organization-x/omni/tree/main/app
+3. Roboflow: https://roboflow.com/
+
+
