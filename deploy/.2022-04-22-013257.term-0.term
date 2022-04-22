@@ -1,0 +1,148 @@
+]0;~/kirby-detection-in-images[01;34m~/kirby-detection-in-images[00m$ [K]0;~/kirby-detection-in-images[01;34m~/kirby-detection-in-images[00m$ cd app
+]0;~/kirby-detection-in-images/app[01;34m~/kirby-detection-in-images/app[00m$ python3 mai[K[K[K-m main
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/49d42078-2ad9-44c6-bf76-70f193709a84/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-4-22 torch 1.8.1+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7012822 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc4.ai-camp.dev/49d42078-2ad9-44c6-bf76-70f193709a84/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/kirby-detection-in-images/app/main.py", line 113, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+]0;~/kirby-detection-in-images/app[01;34m~/kirby-detection-in-images/app[00m$ python3 -m main
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/49d42078-2ad9-44c6-bf76-70f193709a84/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-4-22 torch 1.8.1+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7012822 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc4.ai-camp.dev/49d42078-2ad9-44c6-bf76-70f193709a84/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/kirby-detection-in-images/app/main.py", line 113, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+]0;~/kirby-detection-in-images/app[01;34m~/kirby-detection-in-images/app[00m$ python3 -m main
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/49d42078-2ad9-44c6-bf76-70f193709a84/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-4-22 torch 1.8.1+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7012822 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc4.ai-camp.dev/49d42078-2ad9-44c6-bf76-70f193709a84/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/kirby-detection-in-images/app/main.py", line 113, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+]0;~/kirby-detection-in-images/app[01;34m~/kirby-detection-in-images/app[00m$ python3 -m main
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/49d42078-2ad9-44c6-bf76-70f193709a84/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-4-22 torch 1.8.1+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7012822 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc4.ai-camp.dev/49d42078-2ad9-44c6-bf76-70f193709a84/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/kirby-detection-in-images/app/main.py", line 113, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+]0;~/kirby-detection-in-images/app[01;34m~/kirby-detection-in-images/app[00m$ 
+]0;~/kirby-detection-in-images/app[01;34m~/kirby-detection-in-images/app[00m$ python3 -m main
+Downloading: "https://github.com/ultralytics/yolov5/archive/master.zip" to /projects/49d42078-2ad9-44c6-bf76-70f193709a84/.cache/torch/hub/master.zip
+YOLOv5 🚀 2022-4-22 torch 1.8.1+cu102 CPU
+
+Fusing layers... 
+Model summary: 213 layers, 7012822 parameters, 0 gradients
+Adding AutoShape... 
+Try to open
+
+    https://https://cocalc4.ai-camp.dev/49d42078-2ad9-44c6-bf76-70f193709a84/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/kirby-detection-in-images/app/main.py", line 113, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/49d42078-2ad9-44c6-bf76-70f193709a84/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+]0;~/kirby-detection-in-images/app[01;34m~/kirby-detection-in-images/app[00m$ 
