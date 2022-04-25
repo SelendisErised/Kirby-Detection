@@ -8,7 +8,7 @@ I collected the images containing Kirby from Google Image. This images includs g
 ![](image/label_generate.png)
 
 ## Script
-**code/Kirby_Detection_ver2.ipynb**
+1. [Kirby_Detection_ver2.ipynb](code/Kirby_Detection_ver2.ipynb)
 
 I ran this notebook on Google Colab. Based on YOLOv5s6, the model here was trained for 200 epochs with the default hyperparameter setting. You could find the running result in this notebook, as well as [result](result) directory. The [pdf](code/Kirby_Detection_ver2.pdf) version of this notebook is also available.
 
