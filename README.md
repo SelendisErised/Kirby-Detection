@@ -27,6 +27,8 @@ The web deploying part is refered to the [web templates of AI Camp](https://gith
 
 One of the most popular method to upgrade model performance is model ensembling. As long as the base models are diverse and independent, the prediction error decreases when the ensemble approach is used. I use a state of art method for combining predictions of object detection models: [Weighted Box Fusion (WBF)](https://arxiv.org/abs/1910.13302). Introduced by Roman Solovyev et al. in 2019, the weighted box fusion (WBF) method uses confidence scores of all proposed bounding boxes to construct the average boxes. In this project, I trained yolov5s6 and yolov5m6 model, and use WBF method to ensemble their results. As shown in the following images, compared to the single model, the edge of the bounding box of the ensembling one are more close to Kirby. In addition, the weights of the base model is adjustable in this method, making it adaptable to different conditions.
 
+![](image/wbf.PNG)
+
 ## Future Work
 When I collected data, I found that most of the video game screenshots are from the newest released Nitendo Switch Game - Kirby and the Forgotten Land. In this game, the resolution is relatively high compared to the previous version of Kirby. In this case, this dataset may have potential bias. Besides, since most of the kirby are pink, being quite different from the surrouding game environment, so it would pretty easy for the model to simply find the pink area in the images. In this case, this object detection model have poor performance on pink background images. Expanding the data may help to solve these problem.
 
