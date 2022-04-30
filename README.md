@@ -1,6 +1,6 @@
 # Kirby-Detection
 ## Overview
-This project is implemented for AI Camp Summer Data Science Intern Crash Course. The main purpose of this project is to detect Kirby in the images using YOLOv5. Kirby is an adorable action-platform video game character developed by HAL Laboratory and published by Nintendo. In the sense that detecting a game agent could be the first stage for developing some reinfocement learning algorithms based on video-games, I designed this project.
+This project is implemented for AI Camp Summer Data Science Intern Crash Course. The **minimum viable product (MVP)** is to detect Kirby in the images using YOLOv5. Kirby is an adorable action-platform video game character developed by HAL Laboratory and published by Nintendo. In the sense that detecting a game agent could be the first stage for developing some reinfocement learning algorithms based on video-games, I designed this project.
 
 ## Dataset
 I collected the images containing Kirby from Google Image. This images includs game posters, game screenshots, and fan works. These images was labled using [roboflow](https://roboflow.com/) by myself. For the video game screenshots, most of them all from Kirby and the Forgotten Land, the newest Kirby Game on Nitendo Switch. You could find the data used for training, validation and testing in [data](data) directory. Due to limited time, the dataset only contains about 130 images.
@@ -35,9 +35,34 @@ One of the most popular methods to upgrade model performance is model ensembling
 
 ## Future Work
 ### Dataset Bias & Diversity
-When I collected data, I found that most of the video game screenshots are from the newest released Nitendo Switch Game - Kirby and the Forgotten Land. In this game, the resolution is relatively high compared to the previous version of Kirby. In this case, this dataset may have potential bias. Besides, since most of the kirby are pink, being quite different from the surrouding game environment, so it would pretty easy for the model to simply find the pink area in the images. In this case, this object detection model have poor performance on pink background images. Expanding the data may help to solve these problem.
 
-We could also expend the functions, like checking the ability of the detected Kirby (sword, wind, frozen, fire, etc). Further, this system could also be modified to adapt to a stream video scenario to help to develop AI in video games.
+When I collected data, I found that most of the video game screenshots are from the newest released Nitendo Switch Game - Kirby and the Forgotten Land. In this game, the resolution is relatively high compared to the previous version of Kirby. In this case, this dataset may have potential bias. Further, since most of the kirby are pink, being quite different from the surrouding game environment, so it would pretty easy for the model to simply find the pink area in the images. In this case, this object detection model have poor performance on pink background images. Besides, due to the time limitation, the dataset only contains 120+ images.
+
+**Possible Solutions:** 
+1. Increase the number of images in the data;
+2. Enrich the diversity of the dataset: inlcude images (screenshots) from previous versions of games, add more images in pink background;
+3. If the number of images is truly limited on the Internet, we could also use networks like GAN to produce more images;
+4. Data Augmentation: We could write a yaml file to control this setting in YOLO.
+
+### Model Performance Improvement
+**Possible Solutions:** 
+1. Model Ensembling: NMS, soft-NMS, Weighted Box Fusion (DONE!), etc;
+2. Hyperparameter Tuning of YOLO architecture;
+3. Data Augmentation: Use different augmentation methods to improve the performance. I trained yolov5n6 and yolov5s6 in default mode.
+
+### Additional Functions
+#### Object Tracking
+We could add tracking algorithms to improve the overall performance of the system when it deals with streaming data, like a video game record. Tracking the agent in a streaming video would help in developing the game AI and the research of some AI and reinforcement learning algorithms.
+
+**Possible Solutions:**
+Norfair Library: https://github.com/tryolabs/norfair. This is the object tracking library I once used in a kaggle project.
+
+#### Multiclass Detection
+We could also check the ability of the detected Kirby (sword, wind, frozen, fire, etc), all the enemies and bonus in the game. In this case, we could set a whole training environment for AI development simply by inputting video records, which should be a cool thing.
+
+**Possible Solutions:**
+While expanding the whole dataset, define more labels.
+
 
 ## Acknowledgment
 I'd like to express my sincere gratitude to Alex Duffy and Mitch Cutts at AI Camp, who helped me patiently and promptly when I encountered difficulties in this project. Look forward to colaborating with all the members of AI Camp this summer!
@@ -48,3 +73,4 @@ I'd like to express my sincere gratitude to Alex Duffy and Mitch Cutts at AI Cam
 3. Roboflow: https://roboflow.com/
 4. Solovyev, Roman, Weimin Wang, and Tatiana Gabruseva. "Weighted boxes fusion: Ensembling boxes from different object detection models." Image and Vision Computing 107 (2021): 104117. https://arxiv.org/abs/1910.13302
 5. Weighted Box Fusion, https://github.com/ZFTurbo/Weighted-Boxes-Fusion
+6. Norfair: https://github.com/tryolabs/norfair
