@@ -34,6 +34,7 @@ One of the most popular methods to upgrade model performance is model ensembling
 ![](image/wbf_result.PNG)
 
 ## Future Work
+### Dataset Bias & Diversity
 When I collected data, I found that most of the video game screenshots are from the newest released Nitendo Switch Game - Kirby and the Forgotten Land. In this game, the resolution is relatively high compared to the previous version of Kirby. In this case, this dataset may have potential bias. Besides, since most of the kirby are pink, being quite different from the surrouding game environment, so it would pretty easy for the model to simply find the pink area in the images. In this case, this object detection model have poor performance on pink background images. Expanding the data may help to solve these problem.
 
 We could also expend the functions, like checking the ability of the detected Kirby (sword, wind, frozen, fire, etc). Further, this system could also be modified to adapt to a stream video scenario to help to develop AI in video games.
